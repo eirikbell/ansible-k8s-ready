@@ -1,0 +1,5 @@
+k8s1 ansible_host=10.0.4.101 ansible_ssh_user=vagrant
+k8s2 ansible_host=10.0.4.102 ansible_ssh_user=vagrant
+k8s3 ansible_host=10.0.4.103 ansible_ssh_user=vagrant
+k8s4 ansible_host=10.0.4.104 ansible_ssh_user=vagrant
+k8s5 ansible_host=10.0.4.105 ansible_ssh_user=vagrant

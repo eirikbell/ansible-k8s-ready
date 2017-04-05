@@ -1,0 +1,4 @@
+---
+- all
+  roles:
+    - k8sready
