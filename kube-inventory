@@ -7,19 +7,19 @@ k8s4 ansible_ssh_host=10.0.4.104 ip=10.3.0.4
 k8s5 ansible_ssh_host=10.0.4.105 ip=10.3.0.5
 
 [kube-master]
-node1
-node2
+k8s1
+k8s2
 
 [etcd]
-node1
-node2
-node3
+k8s1
+k8s2
+k8s3
 
 [kube-node]
-node2
-node3
-node4
-node5
+k8s2
+k8s3
+k8s4
+k8s5
 
 [k8s-cluster:children]
 kube-node
