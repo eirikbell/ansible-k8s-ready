@@ -1,10 +1,10 @@
 ## Configure 'ip' variable to bind kubernetes services on a
 ## different ip than the default iface
-k8s1 ansible_ssh_host=10.0.4.101 ip=10.3.0.1
-k8s2 ansible_ssh_host=10.0.4.102 ip=10.3.0.2
-k8s3 ansible_ssh_host=10.0.4.103 ip=10.3.0.3
-k8s4 ansible_ssh_host=10.0.4.104 ip=10.3.0.4
-k8s5 ansible_ssh_host=10.0.4.105 ip=10.3.0.5
+k8s1 ansible_ssh_host=10.0.4.101
+k8s2 ansible_ssh_host=10.0.4.102
+k8s3 ansible_ssh_host=10.0.4.103
+k8s4 ansible_ssh_host=10.0.4.104
+k8s5 ansible_ssh_host=10.0.4.105
 
 [kube-master]
 k8s1
